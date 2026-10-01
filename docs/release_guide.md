@@ -2,13 +2,11 @@
 
 This guide describes how to update the initial CAR-VLA repository as the paper and code become available.
 
-## Add the arXiv link
+## Paper link
 
-1. Open the root `README.md` and search for `ARXIV_URL`.
-2. In the following `<a>` tag, replace `href="#paper"` with the actual arXiv abstract URL, for example `https://arxiv.org/abs/YOUR_PAPER_ID`.
-3. In that badge's image URL, replace `coming%20soon` with the paper identifier, and update its alt text.
-4. Replace the placeholder sentence in the **Paper** section with the paper link.
-5. Update the BibTeX entry with the official arXiv metadata and mark the arXiv item in the **Todo List** complete.
+The paper is available at [arXiv:2609.34387](https://arxiv.org/abs/2609.34387). The README badge, paper links, and BibTeX entry use this identifier. The arXiv item in the **Todo List** is complete.
+
+The links omit a version suffix so that they open the latest arXiv version. When publication metadata changes, update the **Paper**, **News**, and **Citation** sections together.
 
 ## Release the implementation
 
@@ -18,5 +16,7 @@ This guide describes how to update the initial CAR-VLA repository as the paper a
 4. Update the directory documentation, **News**, **Todo List**, and code status badge to reflect what is actually available.
 
 ## Figure asset
+
+`assets/car-vla-mascot.png` is the original project mascot image, displayed to the left of the CAR-VLA title in the README.
 
 `assets/method.pdf` is the paper's method overview, sourced from `overleaf/figures/overview_final_v6.pdf`. `assets/method.png` is a 3200-pixel-wide rendering used in the README so that GitHub displays the figure inline. Keep both files in sync when updating the figure.

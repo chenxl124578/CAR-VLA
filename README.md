@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>CAR-VLA</h1>
+<h1><img src="assets/car-vla-mascot.png" width="80" alt="CAR-VLA mascot" align="middle">&nbsp; CAR-VLA</h1>
 <h3>Complexity-Aware and Risk-Adaptive Reasoning<br>for Autonomous Driving</h3>
 
 <p>
@@ -17,8 +17,7 @@ Qingfan Wang<sup>2</sup>, Jiamei Liang<sup>2</sup>, Bin Li<sup>1</sup>, Xiangyan
 <p><sup>†</sup> Projector leader. &nbsp; <sup>✉</sup> Corresponding author.</p>
 
 <p>
-<!-- ARXIV_URL: Replace href="#paper" below with your arXiv URL when available. -->
-<a href="#paper"><img src="https://img.shields.io/badge/arXiv-coming%20soon-B31B1B?style=for-the-badge&amp;logo=arxiv&amp;logoColor=white" alt="arXiv: coming soon"></a>
+<a href="https://arxiv.org/abs/2609.34387"><img src="https://img.shields.io/badge/arXiv-2609.34387-B31B1B?style=for-the-badge&amp;logo=arxiv&amp;logoColor=white" alt="arXiv: 2609.34387"></a>
 <a href="#method"><img src="https://img.shields.io/badge/Method-overview-6554C0?style=for-the-badge" alt="Method overview"></a>
 <a href="#todo-list"><img src="https://img.shields.io/badge/Code-coming%20soon-4479B5?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="Code: coming soon"></a>
 </p>
@@ -35,13 +34,14 @@ Official repository for **CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning 
 
 ## News
 
+- **2026-10-01:** Our paper is available on [arXiv](https://arxiv.org/abs/2609.34387)!
 - **2026-09-28:** The CAR-VLA repository is now available with the project overview and method figure. Code is coming soon!
 
 ## Paper
 
 **CAR-VLA: Complexity-Aware and Risk-Adaptive Reasoning for Autonomous Driving**
 
-The arXiv link will be added here. The arXiv button currently points to this section.
+[Read on arXiv](https://arxiv.org/abs/2609.34387) · [Paper PDF](https://arxiv.org/pdf/2609.34387)
 
 ## Overview
 
@@ -88,7 +88,7 @@ Higher is better. These scores follow the manuscript's respective benchmark prot
 ## Todo List
 
 - [x] Publish the project overview and method figure.
-- [ ] Add the arXiv paper link.
+- [x] Add the arXiv paper link.
 - [ ] **Code is coming soon**: release the cleaned CAR-VLA implementation.
 - [ ] Add environment setup and data preparation instructions.
 - [ ] Add training, inference, and evaluation scripts and configurations.
@@ -98,7 +98,7 @@ Higher is better. These scores follow the manuscript's respective benchmark prot
 ```text
 CAR-VLA/
 ├── README.md            # Project overview and release status
-├── assets/              # Paper method figure (PNG and vector PDF)
+├── assets/              # CAR-VLA mascot and paper method figure
 ├── car_vla/             # Reserved for the CAR-VLA implementation
 ├── configs/             # Reserved for experiment configurations
 ├── scripts/             # Reserved for data, training, and evaluation entry points
@@ -109,7 +109,7 @@ The implementation directories currently contain release notes only. Installatio
 
 ## Citation
 
-If you find CAR-VLA useful for your research, please cite our work. This provisional entry will be updated with the arXiv identifier when available.
+If you find CAR-VLA useful for your research, please cite our work.
 
 ```bibtex
 @misc{chen2026carvla,
@@ -119,8 +119,10 @@ If you find CAR-VLA useful for your research, please cite our work. This provisi
             Chen, Zisheng and Zhu, Zhihao and Jin, Zhounan and Wang, Hengli and
             Wang, Qingfan and Liang, Jiamei and Li, Bin and Xue, Xiangyang},
   year   = {2026},
-  note   = {Manuscript; arXiv identifier forthcoming},
-  url    = {https://github.com/chenxl124578/CAR-VLA}
+  eprint = {2609.34387},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url    = {https://arxiv.org/abs/2609.34387}
 }
 ```
 
